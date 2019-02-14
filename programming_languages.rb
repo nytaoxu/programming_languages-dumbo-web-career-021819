@@ -21,7 +21,7 @@ def reformat_languages(languages)
         end
       end
       if !match
-        result[]
+        result[lang_sym] = 
       end
     end
 
