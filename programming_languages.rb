@@ -17,7 +17,7 @@ def reformat_languages(languages)
         if r_lang_sym == lang_sym
           match = true
           r_attributes[:type] = type_hash[:type]
-          add_attribute(r_attributes[])
+          add_attribute(r_attributes[:style], )
         end
       end
       
