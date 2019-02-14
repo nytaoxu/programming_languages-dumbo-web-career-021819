@@ -22,8 +22,8 @@ def reformat_languages(languages)
       end
       if !match
         result[lang_sym] = {
-          :type => ,
-          :style => 
+          :type => type_hash[:type],
+          :style => [style]
         }
       end
     end
