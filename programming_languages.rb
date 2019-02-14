@@ -1,3 +1,8 @@
+
+def add_attribute(array, attribute)
+  if array.include
+end
+
 def reformat_languages(languages)
   # your code here
   result = Hash.new
