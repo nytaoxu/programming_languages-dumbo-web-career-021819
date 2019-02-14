@@ -11,7 +11,7 @@ def reformat_languages(languages)
         end
       end
     end
-    
+    result << 
   end
   result
 end
