@@ -22,7 +22,7 @@ def reformat_languages(languages)
       end
       if !match
         result << {
-          lang_sym:
+          lang_sym => 
         }
       end
     end
