@@ -8,7 +8,7 @@ def reformat_languages(languages)
       result.each do |r_lang_sym, r_attributes|
         if r_lang_sym == lang_sym
           match = true
-          result[r_lang_sym][:type]
+          r_attributes[:type] = type_hash[:type]
         end
       end
       
