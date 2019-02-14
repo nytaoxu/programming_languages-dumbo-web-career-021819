@@ -1,6 +1,9 @@
 
 def add_attribute(array, attribute)
-  if array.include
+  if !array.include?(attribute)
+    array << attribute
+  end
+  array
 end
 
 def reformat_languages(languages)
@@ -14,6 +17,7 @@ def reformat_languages(languages)
         if r_lang_sym == lang_sym
           match = true
           r_attributes[:type] = type_hash[:type]
+          add_attribute(r_attributes[])
         end
       end
       
